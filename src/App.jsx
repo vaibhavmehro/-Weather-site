@@ -39,7 +39,7 @@ return (
     <Search onSearchChange={handleOnSearchChange}></Search>
     {currentWeather &&  <CurrentWeather data={currentWeather}></CurrentWeather>}
     {forecast && <Forecast data={forecast}></Forecast>}
-   
+   n
   </div>
 );
 
